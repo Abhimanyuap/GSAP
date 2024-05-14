@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: aliceblue;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+
+/* #red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#green{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+} */
+
+/* ---------------nav------------ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+nav>div{
+    display: flex;
+    gap: 40px;
+}
+h2{
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    white-space: nowrap;
+    transform: translate(-50%,-50%);
+}
